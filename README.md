@@ -14,7 +14,7 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 ![screenshot](./src/assets/screenshot_52.png)
 
 ## Demo Link
-[crypto Exchange]()
+[crypto Exchange](fff)
 ## Loom Link
 [Video Presentation ](https://youtu.be/ytkHGM1LOFQ)
 ## Built With
