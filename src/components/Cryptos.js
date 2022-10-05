@@ -24,7 +24,7 @@ const Cryptos = () => {
     <div className="cryptos_row">
       <Header />
       <div className="description">
-        Top 12 Cap Crypto
+        Top 6 Cap Crypto
         <div className="search-box">
           <input
             type="search"
