@@ -1,75 +1,82 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/React-blue)
+![](https://img.shields.io/badge/Redux-red)
+![](https://img.shields.io/badge/Sass-pink)
 
-# Project Name
+#Crypto-Expence-Tracker
 
-> Description the project.
+The crypto is a capstone built with React/redux, SASS, and the `coinbase` API.
+It helps them to keep an eye on the top trends on the market, crypto prices, and all their details.
 
+## Screenchot
 
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/80612925/158625981-07295955-cb04-484e-87f2-fa66685ce871.gif)
+
+## Demo Link
+[crypto-currency](https://reverent-dubinsky-40ea41.netlify.app/)
+## Loom Link
+[My presentaion]()
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+  ```bash
+  - React/Redux
+  - SASS(SCSS)
+  - Jest
+  - React Linters.
+  - Git.
+  ```
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+ - A text editor(preferably Visual Studio Code)
 
 ### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
 
 ### Usage
+#### Clone this repository
 
-### Run tests
+`https://github.com/Kandy-Peter/crypto-exchange.git`
 
-### Deployment
+`cd crypto-exchange`
 
+#### Run project
 
+```bash
+$ npm install
+$ npm run test
+```
 
-## Authors
+#### Open page in browser
+```bash
+$ npm start
+$ runs on http://localhost:3000/
+```
 
-👤 **Author1**
+## Author
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **soulemanou kunchiefuh babanou**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [soulemanou](https://github.com/soulemanou-software)
+- LinkedIn: [](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/clintonjosephs/Stock-metrics/issues).
+
+## Acknowledgement
+Design inspired from [Nelson Sakwa on Behance](https://www.behance.net/gallery/31579789/Ballhead-App-%28Free-PSDs%29).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.

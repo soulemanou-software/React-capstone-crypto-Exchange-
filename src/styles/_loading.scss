@@ -1,0 +1,68 @@
+@import './_colors';
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+
+  span {
+    width: 7px;
+    height: 60px;
+    background-color: var(--text-primary);
+    margin: 0 5px;
+    border-radius: 5px;
+    animation: loading 0.7s infinite linear;
+  }
+
+  .line1 {
+    animation-delay: 0.1s;
+    background-color: var(--loader);
+  }
+
+  .line2 {
+    animation-delay: 0.2s;
+    background-color: var(--loader1);
+  }
+
+  .line3 {
+    animation-delay: 0.3s;
+    background-color: var(--loader);
+  }
+
+  .line4 {
+    animation-delay: 0.4s;
+    background-color: var(--loader1);
+  }
+
+  .line5 {
+    animation-delay: 0.5s;
+    background-color: var(--loader);
+  }
+
+  .line6 {
+    animation-delay: 0.6s;
+    background-color: var(--loader1);
+  }
+
+  .line7 {
+    animation-delay: 0.7s;
+    background-color: var(--loader);
+  }
+
+  @keyframes loading {
+    0% {
+      height: 0;
+    }
+
+    50% {
+      height: 70px;
+    }
+
+    100% {
+      height: 0;
+    }
+  }
+}

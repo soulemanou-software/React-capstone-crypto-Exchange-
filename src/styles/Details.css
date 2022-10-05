@@ -1,0 +1,85 @@
+:root {
+  --background: #000000;
+  --text-primary: rgb(255, 255, 255);
+  --bg-secondary: #000000;
+  --card-color-2: #000000;
+  --first-gradient: rgb(0, 0, 0);
+  --second-gradient: rgb(255, 254, 254);
+  --Loader1: #fc0000;
+  --Loader: #00ff00;
+}
+
+[data-theme=white] {
+  --background: #ffffff;
+  --text-primary: rgb(0, 0, 0);
+  --card-color-2: #fffffa;
+  --bg-secondary: #000000;
+  --first-gradient: #ffffff;
+  --second-gradient: rgb(0, 0, 0) ;
+}
+
+.details_container {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.details_container .details-header {
+  height: 60px;
+  color: #fff;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 8px 0.7rem;
+}
+.details_container .details-header a {
+  color: #fff;
+  font-size: 20px;
+}
+.details_container .details-header p {
+  flex: 1;
+  text-align: center;
+}
+.details_container .main-clm {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 200px;
+  padding: 2rem;
+  background: linear-gradient(270deg, rgb(23, 83, 146) 48%, rgba(0, 78, 191, 0.33) 100%), var(--img);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.details_container .main-clm h1 {
+  font-size: 24px;
+  padding: 10px 2rem;
+}
+.details_container .descr {
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 1px 10px 20px #181c22;
+}
+.details_container .coin-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.details_container .coin-cards .card {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  font-size: 16px;
+}
+.details_container .coin-cards .card:nth-child(even) {
+  background-color: #000000;
+}/*# sourceMappingURL=Details.css.map */

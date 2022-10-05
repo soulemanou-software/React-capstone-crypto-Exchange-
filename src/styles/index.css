@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@500&display=swap");
+:root {
+  --background: #000000;
+  --text-primary: rgb(255, 255, 255);
+  --bg-secondary: #000000;
+  --card-color-2: #000000;
+  --first-gradient: rgb(0, 0, 0);
+  --second-gradient: rgb(255, 254, 254);
+  --Loader1: #fc0000;
+  --Loader: #00ff00;
+}
+
+[data-theme=white] {
+  --background: #ffffff;
+  --text-primary: rgb(0, 0, 0);
+  --card-color-2: #fffffa;
+  --bg-secondary: #000000;
+  --first-gradient: #ffffff;
+  --second-gradient: rgb(0, 0, 0) ;
+}
+
+.header-container {
+  color: var(--text-primary);
+  width: 100%;
+}
+.header-container .head {
+  background: var(--background);
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  box-shadow: 1px 2px 10px 5px #181c22;
+}
+.header-container .head h1,
+.header-container .head .icons {
+  font-size: 22px;
+}
+.header-container .head .icons-menu {
+  margin-left: 1.2rem;
+}
+.header-container .breaderHumb {
+  text-align: end;
+  height: 200px;
+  background: linear-gradient(270deg, var(--first-gradient) 49%, var(--second-gradient) 100%), url(../Images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 22px;
+  padding: 1.5rem;
+  padding-top: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.header-container .breaderHumb .date {
+  font-size: 18px;
+}
+
+:root {
+  --background: #000000;
+  --text-primary: rgb(255, 255, 255);
+  --bg-secondary: #000000;
+  --card-color-2: #000000;
+  --first-gradient: rgb(0, 0, 0);
+  --second-gradient: rgb(255, 254, 254);
+  --Loader1: #fc0000;
+  --Loader: #00ff00;
+}
+
+[data-theme=white] {
+  --background: #ffffff;
+  --text-primary: rgb(0, 0, 0);
+  --card-color-2: #fffffa;
+  --bg-secondary: #000000;
+  --first-gradient: #ffffff;
+  --second-gradient: rgb(0, 0, 0) ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--background);
+}
+body a {
+  text-decoration: none;
+}
+
+:root {
+  --background: #000000;
+  --text-primary: rgb(255, 255, 255);
+  --bg-secondary: #000000;
+  --card-color-2: #000000;
+  --first-gradient: rgb(0, 0, 0);
+  --second-gradient: rgb(255, 254, 254);
+  --Loader1: #fc0000;
+  --Loader: #00ff00;
+}
+
+[data-theme=white] {
+  --background: #ffffff;
+  --text-primary: rgb(0, 0, 0);
+  --card-color-2: #fffffa;
+  --bg-secondary: #000000;
+  --first-gradient: #ffffff;
+  --second-gradient: rgb(0, 0, 0) ;
+}
+
+.cryptos_row .description {
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: var(--bg-secondary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  box-shadow: 1px 2px 10px 5px #181c22;
+}
+.cryptos_row .description .search-box {
+  background-color: #fefefe;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px #686868;
+}
+.cryptos_row .description .search-box input {
+  width: 0;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  background-color: transparent;
+}
+.cryptos_row .description .search-box:hover input {
+  width: 210px;
+}
+.cryptos_row .description .search-box a #search-icon {
+  display: flex;
+  align-items: center;
+  color: var(--background);
+  font-size: 18px;
+}
+.cryptos_row .all_cryptos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cryptos_row .all_cryptos .container {
+  color: var(--text-primary);
+  width: 50%;
+  font-size: 14px;
+  text-align: center;
+  padding: 0.4rem;
+}
+.cryptos_row .all_cryptos .container:nth-child(odd) {
+  background-color: var(--background);
+}
+.cryptos_row .all_cryptos .container:nth-child(even) {
+  background-color: var(--card-color-2);
+}
+.cryptos_row .all_cryptos .container:nth-child(4n-1) {
+  background-color: var(--card-color-2);
+}
+.cryptos_row .all_cryptos .container:nth-child(4n) {
+  background-color: var(--background);
+}
+.cryptos_row .all_cryptos .container .card-row {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.cryptos_row .all_cryptos .container .card-row #arrow-icon {
+  width: 100%;
+  text-align: right;
+  padding: 10px;
+}
+.cryptos_row .all_cryptos .container .card-row .img-clm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cryptos_row .all_cryptos .container .card-row .img-clm img {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+}
+.cryptos_row .all_cryptos .container .card-row .crypto-card {
+  margin-top: 0.6rem;
+}
+.cryptos_row .all_cryptos .container .card-row .crypto-card .green_p {
+  color: rgb(0, 129, 0);
+}
+.cryptos_row .all_cryptos .container .card-row .crypto-card .red_p {
+  color: rgb(141, 0, 0);
+  font-weight: 700;
+}
+
+:root {
+  --background: #000000;
+  --text-primary: rgb(255, 255, 255);
+  --bg-secondary: #000000;
+  --card-color-2: #000000;
+  --first-gradient: rgb(0, 0, 0);
+  --second-gradient: rgb(255, 254, 254);
+  --Loader1: #fc0000;
+  --Loader: #00ff00;
+}
+
+[data-theme=white] {
+  --background: #ffffff;
+  --text-primary: rgb(0, 0, 0);
+  --card-color-2: #fffffa;
+  --bg-secondary: #000000;
+  --first-gradient: #ffffff;
+  --second-gradient: rgb(0, 0, 0) ;
+}
+
+.details_container {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.details_container .details-header {
+  height: 60px;
+  color: #fff;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  padding: 8px 0.7rem;
+}
+.details_container .details-header a {
+  color: #fff;
+  font-size: 20px;
+}
+.details_container .details-header p {
+  flex: 1;
+  text-align: center;
+}
+.details_container .main-clm {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 200px;
+  padding: 2rem;
+  background: linear-gradient(270deg, rgb(23, 83, 146) 48%, rgba(0, 78, 191, 0.33) 100%), var(--img);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.details_container .main-clm h1 {
+  font-size: 24px;
+  padding: 10px 2rem;
+}
+.details_container .descr {
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  background-color: #000000;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 1px 10px 20px #181c22;
+}
+.details_container .coin-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.details_container .coin-cards .card {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+  font-size: 16px;
+}
+.details_container .coin-cards .card:nth-child(even) {
+  background-color: #000000;
+}
+
+:root {
+  --background: #000000;
+  --text-primary: rgb(255, 255, 255);
+  --bg-secondary: #000000;
+  --card-color-2: #000000;
+  --first-gradient: rgb(0, 0, 0);
+  --second-gradient: rgb(255, 254, 254);
+  --Loader1: #fc0000;
+  --Loader: #00ff00;
+}
+
+[data-theme=white] {
+  --background: #ffffff;
+  --text-primary: rgb(0, 0, 0);
+  --card-color-2: #fffffa;
+  --bg-secondary: #000000;
+  --first-gradient: #ffffff;
+  --second-gradient: rgb(0, 0, 0) ;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+}
+.loader span {
+  width: 7px;
+  height: 60px;
+  background-color: var(--text-primary);
+  margin: 0 5px;
+  border-radius: 5px;
+  animation: loading 0.7s infinite linear;
+}
+.loader .line1 {
+  animation-delay: 0.1s;
+  background-color: var(--loader);
+}
+.loader .line2 {
+  animation-delay: 0.2s;
+  background-color: var(--loader1);
+}
+.loader .line3 {
+  animation-delay: 0.3s;
+  background-color: var(--loader);
+}
+.loader .line4 {
+  animation-delay: 0.4s;
+  background-color: var(--loader1);
+}
+.loader .line5 {
+  animation-delay: 0.5s;
+  background-color: var(--loader);
+}
+.loader .line6 {
+  animation-delay: 0.6s;
+  background-color: var(--loader1);
+}
+.loader .line7 {
+  animation-delay: 0.7s;
+  background-color: var(--loader);
+}
+@keyframes loading {
+  0% {
+    height: 0;
+  }
+  50% {
+    height: 70px;
+  }
+  100% {
+    height: 0;
+  }
+}/*# sourceMappingURL=index.css.map */
