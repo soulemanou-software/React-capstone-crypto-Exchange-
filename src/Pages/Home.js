@@ -21,7 +21,7 @@ const Home = () => {
       {!cryptos.length ? <Loading /> : (
         <>
           <div className="head">
-            <h1>Crypto Coin Exanger</h1>
+            <h1>Crypto Exchanger</h1>
             <div className="icons">
               <MdInvertColors className="icons-menu" onClick={switchTheme} />
               <IoSettingsSharp className="icons-menu" />

@@ -16,7 +16,7 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 ## Demo Link
 [crypto Exchange]()
 ## Loom Link
-[My presentaion](https://youtu.be/ytkHGM1LOFQ)
+[Video Presentation ](https://youtu.be/ytkHGM1LOFQ)
 ## Built With
 
   ```bash
