@@ -1,27 +1,28 @@
 :root {
-  --background: #000000;
+  --background: #000;
   --text-primary: rgb(255, 255, 255);
-  --bg-secondary: #000000;
-  --card-color-2: #000000;
+  --bg-secondary: #000;
+  --card-color-2: #000;
   --first-gradient: rgb(0, 0, 0);
   --second-gradient: rgb(255, 254, 254);
   --Loader1: #fc0000;
-  --Loader: #00ff00;
+  --Loader: #0f0;
 }
 
 [data-theme=white] {
-  --background: #ffffff;
+  --background: #fff;
   --text-primary: rgb(0, 0, 0);
   --card-color-2: #fffffa;
-  --bg-secondary: #000000;
-  --first-gradient: #ffffff;
-  --second-gradient: rgb(0, 0, 0) ;
+  --bg-secondary: #000;
+  --first-gradient: #fff;
+  --second-gradient: rgb(0, 0, 0);
 }
 
 .header-container {
   color: var(--text-primary);
   width: 100%;
 }
+
 .header-container .head {
   background: var(--background);
   height: 40px;
@@ -31,13 +32,16 @@
   padding: 0 2rem;
   box-shadow: 1px 2px 10px 5px #181c22;
 }
+
 .header-container .head h1,
 .header-container .head .icons {
   font-size: 22px;
 }
+
 .header-container .head .icons-menu {
   margin-left: 1.2rem;
 }
+
 .header-container .breaderHumb {
   text-align: end;
   height: 200px;
@@ -51,6 +55,7 @@
   font-weight: 700;
   color: var(--text-primary);
 }
+
 .header-container .breaderHumb .date {
   font-size: 18px;
-}/*# sourceMappingURL=Header.css.map */
+}
