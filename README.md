@@ -12,6 +12,7 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 
 ![Screenshot_52](https://user-images.githubusercontent.com/57832090/194060628-6d58fce9-27b4-460a-965a-5ed19ef34c33.png)
 ![Screenshot_49](https://user-images.githubusercontent.com/57832090/194060636-c24a0de4-4ffa-45e0-8f2c-cb1e52d002c6.png)
+![Screenshot_53](https://user-images.githubusercontent.com/57832090/194060928-91439a0c-c55f-41fa-8894-0fece1da6aa7.png)
 
 
 ## Demo Link
