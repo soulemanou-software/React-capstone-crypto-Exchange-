@@ -10,12 +10,13 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 
 ## Screenchot
 
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/80612925/158625981-07295955-cb04-484e-87f2-fa66685ce871.gif)
+![screenshot](./src/assets/screenshot_49.png)
+![screenshot](./src/assets/screenshot_52.png)
 
 ## Demo Link
-[crypto-currency](https://reverent-dubinsky-40ea41.netlify.app/)
+[crypto Exchange]()
 ## Loom Link
-[My presentaion]()
+[My presentaion](https://youtu.be/ytkHGM1LOFQ)
 ## Built With
 
   ```bash
@@ -40,7 +41,7 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 #### Clone this repository
 
-`https://github.com/Kandy-Peter/crypto-exchange.git`
+``
 
 `cd crypto-exchange`
 
