@@ -10,11 +10,12 @@ It helps them to keep an eye on the top trends on the market, crypto prices, and
 
 ## Screenchot
 
-![screenshot](./src/assets/screenshot_49.png)
-![screenshot](./src/assets/screenshot_52.png)
+![Screenshot_52](https://user-images.githubusercontent.com/57832090/194060628-6d58fce9-27b4-460a-965a-5ed19ef34c33.png)
+![Screenshot_49](https://user-images.githubusercontent.com/57832090/194060636-c24a0de4-4ffa-45e0-8f2c-cb1e52d002c6.png)
+
 
 ## Demo Link
-[crypto Exchange](fff)
+[crypto Exchange](https://633d77b6dc00070321b1b030--effulgent-blancmange-961cdb.netlify.app/)
 ## Loom Link
 [Video Presentation ](https://youtu.be/ytkHGM1LOFQ)
 ## Built With
@@ -63,7 +64,7 @@ $ runs on http://localhost:3000/
 👤 **soulemanou kunchiefuh babanou**
 
 - GitHub: [soulemanou](https://github.com/soulemanou-software)
-- LinkedIn: [](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou)
+- LinkedIn: [linkedin](https://www.linkedin.com/in/soulemanou-kunchiefuh-babanou)
 
 ## 🤝 Contributing
 
