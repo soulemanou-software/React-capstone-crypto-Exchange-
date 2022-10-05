@@ -3,7 +3,7 @@
 ![](https://img.shields.io/badge/Redux-red)
 ![](https://img.shields.io/badge/Sass-pink)
 
-#Crypto-Expence-Tracker
+#Crypto Exchange 💱 
 
 The crypto is a capstone built with React/redux, SASS, and the `coinbase` API.
 It helps them to keep an eye on the top trends on the market, crypto prices, and all their details.
