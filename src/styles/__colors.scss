@@ -10,16 +10,14 @@ $dark_blue: #000;
   --first-gradient: rgb(0, 0, 0);
   --second-gradient: rgb(255, 254, 254);
   --Loader1: #fc0000;
-  --Loader: #00ff00;
+  --Loader: #0f0;
 }
 
-
 [data-theme='white'] {
-  --background: #ffffff;
+  --background: #fff;
   --text-primary: rgb(0, 0, 0);
   --card-color-2: #fffffa;
   --bg-secondary: #000;
-  --first-gradient: #ffffff;
-  --second-gradient: rgb(0, 0, 0)
- 
+  --first-gradient: #fff;
+  --second-gradient: rgb(0, 0, 0);
 }
